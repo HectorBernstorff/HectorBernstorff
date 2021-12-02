@@ -1,0 +1,215 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #E8DFCA;
+}
+
+.div-container{
+    display: flex;
+}
+
+.div-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.table-top{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.table-top:hover{
+    background-color: rgba(0, 0, 0, 0.082);
+    transition: 0.15s linear;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.h1-capa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 350px;
+}
+
+.h2-capa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hr-capa{
+    width: 400px;
+    border-top: 1px solid black;
+}
+
+.p-capa{
+    visibility: hidden;
+}
+
+.div-capa{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.div-perfil{
+    width: 400px;
+    max-width: 400px;
+    height: 600px;
+    text-align: center;
+    background-color: #FBEFD8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-perfil{
+    width: 500px;
+    clip-path: circle(29.2% at 50% 50%);
+    position: relative;
+    right: 50px;
+   
+}
+
+.h1-perfil{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.hr-perfil{
+    width: 70px;
+    height: 1px;
+    background-color: black;
+}
+
+.h2-perfil{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.div-curriculo{
+    padding-left: 30px;
+    min-width: 600px;
+    max-width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.div-resume{
+    text-align: center;
+    min-width: max-content;
+    margin-bottom: 15%;
+}
+
+.div-portifolio{
+    display: inline-block;
+    margin-left: 0%;
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.p-buttom{
+    margin-top: 0;
+    color: white;
+}
+
+.div-portifolio:hover{
+    background-color: white;
+    transition: 0.15s linear;
+    color: black;
+}
+
+.div-skills:hover{
+    background-color: white;
+    transition: 0.15s linear;
+    color: black;
+}
+
+.p-buttom:hover{
+    color: black;
+    transition: 0.15s linear;
+}
+
+.div-skills{
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.table-footer{
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.img-ico{
+    width: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.div-footer{
+    display: inline-block;
+}
+
+.h1-curriculo{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.h2-curriculo{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+.table-resume{
+    position: absolute;
+    bottom: -100;
+    right: 0;
+}
+
+#h4-jump{
+    position: absolute;
+    top: 87%;
+    right: 50%;
+    visibility: hidden;
+}

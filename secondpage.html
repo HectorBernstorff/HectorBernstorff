@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="secondpage.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="div-top">
+        <table>
+            <tr>
+                <th class="table-top"><a href="index.html">Home</a></th>
+                <th class="table-top"><a href="secondpage.html">Portifolio</a></th>
+                <th class="table-top"><a href="thirdpage.html">Skills</a></th>
+            </tr>
+        </table>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="My Movie.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+        <h1 class="h1-content">Portifolio</h1>
+
+        <p class="p-content">My biggest project was in 2020, I created my own company called Inside Virtual Tour, in this project I put all my energies on totally new area where I managed to innovate the real estate market in my hometown in Brazil.
+
+            With the virtual property tour, the user can circulate through the rooms, see the details of the property and have more information about its size and floor plan. The tool allows for better visualization and helps the consumer when giving a final word on the transaction.
+            
+            Helping the <span id="dots">...</span><span id="more">real estates to have more visibility, customer retention, time optimization and creating a big diference on the market.
+
+                It was with a lot of effort that I learn by myself all areas of the company, from learning how to make a virtual tour to dealing with platform bugs, and the administration of the bussines, and after a few months of hard work, several of my tours were circulating around the city and helping several real estate agents to sell their properties, what makes me really proud.</span></p>
+
+        <div class="div-buttons">
+            <button onclick="myFunction2()" id="read-buttom">Read more</button>
+            <button id="pause-buttom" onclick="myFunction1()">Pause</button>
+        </div>
+
+    </div>
+
+    <script>
+        var video = document.getElementById("myVideo");
+
+        var btn = document.getElementById("pause-buttom");
+
+        function myFunction1() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+
+
+
+
+        function myFunction2() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("read-buttom");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
